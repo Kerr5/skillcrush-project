@@ -1,0 +1,18 @@
+/************styles for other page****************/
+/* body .other-page {
+    nothing in here worked, think I need a container
+} */
+.other-page h1 {
+    color: navy;
+    font-family: galada;
+}
+
+/* ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+} showed to add but didn't change anything
+li {
+    display: inline-block;
+    margin-right: 1px;
+} */

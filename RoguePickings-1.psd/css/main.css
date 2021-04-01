@@ -1,0 +1,136 @@
+/****************BASE STYLES******************/
+
+body {
+    color:;
+    font-family: Montserrat, sans-serif;
+    margin: 0 auto;
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+/*****************HEADER*****************/
+
+header {
+    /* height:100px; */
+    font-weight: bold;
+}
+header h1 {   
+    font-size: 30pt;
+    padding-bottom: 10px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+nav {
+    float: right;  /*having this other places in nav ul, doesn't work*/
+    padding: 20px 0px; 
+    text-transform: uppercase;
+    word-spacing: 6px; /* sure there is a better property than this 
+    and the words are still too close*/
+}
+nav ul li {
+    display: inline-block; /*tried in nav ul li a , didn't work*/
+}
+nav ul li a {
+    color: #77a466;
+    font-size: 12pt;
+    padding-left: 0px; /* see if this is necessary*/
+    text-decoration: none;
+}
+/**********Hero photo*********************/
+
+#gallery img {
+    background-size: cover;
+    border-bottom: 5px solid  #77a466;
+    border-top: 5px solid  #77a466;
+}
+/******************About****************/
+
+#about h2 {
+    color: #77a466;
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+#about p {
+    font-size: 13pt;
+    line-height: 30px;
+}
+#about {
+    border-bottom: 2px solid #dedbdc;
+}
+/********************details in three sections*****************/
+.third-width {
+    float: left;
+
+}
+#details {
+    border-bottom: 2px solid #dedbdc;
+    height: 225px;
+}
+#details h3 {
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+/******************menu  today's special**********/ 
+#menu {
+    width: 360px;
+}
+#menu ul {
+    list-style-type: none;
+    line-height: 40px; /*is there a better way to do this?*/
+    padding: 0;
+}
+#menu ul a {
+    color: #77a466;
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+/***************reviews*************/
+#reviews {
+    border-left: 2px solid #dedbdc;
+    border-right: 2px solid #dedbdc;
+    padding: 0px 15px;
+    width: 400px;
+}
+
+#reviews p{
+    font-size: 13pt; /*used smaller font so it fit*/
+    line-height: 25px; /*is there a better way to do this?*/
+
+}
+
+/****************Contact******************/
+
+#contact {
+    width: 360px;
+    padding-left: 40px;
+    
+}
+#contact a {
+    color: black;
+    font-size: 14pt;
+    line-height: 30px; /*is there a better way to do this?*/
+    text-decoration: none;
+}
+
+/*******************footer************/
+footer {
+    border-bottom: 2px solid #dedbdc;
+    padding-left: 390px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+footer h4 span {
+    color: #9bbc8f;
+    font-family: galada;
+    font-size: 18pt;
+    text-transform: lowercase;
+}
+
